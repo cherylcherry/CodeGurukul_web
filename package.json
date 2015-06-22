@@ -1,0 +1,27 @@
+{
+  "name": "codegurukul",
+  "version": "0.0.1",
+  "description": "This is my first web application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherylcherry/CodeGurukul_web.git"
+  },
+  "keywords": [
+    "Education",
+    "course"
+  ],
+  "author": "Cheryl Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cherylcherry/CodeGurukul_web/issues"
+  },
+  "homepage": "https://github.com/cherylcherry/CodeGurukul_web#readme",
+  "dependencies": {
+    "express": "^4.13.0",
+    "jade": "^1.11.0"
+  }
+}
