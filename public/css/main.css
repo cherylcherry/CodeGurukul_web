@@ -1,34 +1,51 @@
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.headline {
+  color: #0072bc;
+  margin-bottom: 60px;
 }
-nav li {
-  display: inline-block;
+.headline h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 25px;
 }
-nav a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none;
-}
-
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #333;
+.headline hr {
+  width: 130px;
+  height: 4px;
+  background-color: #0072bc;
 }
 
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.icon {
+  text-align: center;
+  color: grey;
+  font-size: 40px;
+  margin-top: 25px;
 }
-nav li {
-  display: inline-block;
+
+.box {
+  border: 1px solid #0072bc;
+  padding: 0px 10px 0px 10px;
+  position: relative;
+  box-shadow: -2px 2px 30px black;
+  margin-bottom: 45px;
 }
-nav a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none;
+.box h3 {
+  color: #0072bc;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.box p {
+  padding-bottom: 20px;
+  color: grey;
+  font-size: 15px;
+}
+
+.readmore {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: #0072bc;
+  padding: 5px 20px 5px 20px;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */

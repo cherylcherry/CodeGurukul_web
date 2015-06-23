@@ -1,19 +1,43 @@
 html(lang='en')
-	head
-		meta(charset='utf-8')   
-		meta(http-equiv='X-UA-Compatible', content='IE=edge')   
-		meta(name='viewport', content='width=device-width, initial-scale=1')
+  head
+    meta(charset='utf-8')    
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')    
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    // The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+    title Practise Bootstrap
+    // Bootstrap
+    link(href='/vendor/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')  
+    link(href='/css/main.css', rel='stylesheet')
 
-		title Jade
-
-		link(href='/vendor/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')
-		link(href="/favicon.ico", rel="shortcut icon", type="image/x-icon")
-		link(href='css/bootstrap.min.css', rel='stylesheet')
-
-	body
-		h1.jumbotron Hello, world!
-		// jQuery (necessary for Bootstrap's JavaScript plugins)
-		script(src='/vendor/jquery/dist/js/jquery.min.js')
-		// Include all compiled plugins (below), or include individual files as needed
-		script(src='/vendor/bootstrap/js/bootstrap.min.js')
-	
+  body
+    .container
+      .row
+        .col-md-12
+          .headline
+            .icon
+              i.fa.fa-briefcase
+            |           
+            h1
+              | Aerospace and business research
+              br
+              | Case Studies
+            |           
+            hr
+    |  
+    |   &#x9;
+    .container
+      .row
+        - for(var x=0;x<=20;x++)
+          .col-sm-6.col-md-4.col-lg-2
+            .box
+              h3.topic Factbase Offset
+              |   &#x9;&#x9;&#x9;&#x9;&#x9;
+              p
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque obcaecati dolores quis voluptatibus, expedita labore.
+              |   &#x9;&#x9;&#x9;&#x9;&#x9;
+              .readmore Read More
+        
+    // jQuery (necessary for Bootstrap's JavaScript plugins)
+    script(src='/vendor/bootstrap/dist/js/jquery.min.js')
+    // Include all compiled plugins (below), or include individual files as needed
+    script(src='/vendor/bootstrap/dist/js/bootstrap.min.js')
