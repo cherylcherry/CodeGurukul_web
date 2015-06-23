@@ -1,51 +1,13 @@
-.headline {
-  color: #0072bc;
-  margin-bottom: 60px;
-}
-.headline h1 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 30px;
-  margin-bottom: 25px;
-}
-.headline hr {
-  width: 130px;
-  height: 4px;
-  background-color: #0072bc;
+footer p {
+  border-top: 1px solid #d7e0e2;
 }
 
-.icon {
-  text-align: center;
-  color: grey;
-  font-size: 40px;
-  margin-top: 25px;
+body {
+  padding-top: 90px;
 }
 
-.box {
-  border: 1px solid #0072bc;
-  padding: 0px 10px 0px 10px;
-  position: relative;
-  box-shadow: -2px 2px 30px black;
-  margin-bottom: 45px;
-}
-.box h3 {
-  color: #0072bc;
-  text-transform: uppercase;
-  font-size: 20px;
-}
-.box p {
-  padding-bottom: 20px;
-  color: grey;
-  font-size: 15px;
-}
-
-.readmore {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  background-color: #0072bc;
-  padding: 5px 20px 5px 20px;
-  color: white;
+.navbar-form .form-group, .navbar-form button {
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */

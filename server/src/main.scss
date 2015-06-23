@@ -1,53 +1,15 @@
-.headline{
-  color: #0072bc;
-  margin-bottom: 60px;
-
-  h1{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 30px;
-    margin-bottom: 25px;
-  }
-
-  hr{
-    width: 130px;
-    height:4px;
-    background-color: #0072bc;
-  }
-}
-
-.icon{
-  text-align: center;
-  color: grey;
-  font-size: 40px;
-  margin-top: 25px;
-}
-
-.box{
-  border: 1px solid #0072bc;
-  padding: 0px 10px 0px 10px;
-  position: relative;
-  box-shadow: -2px 2px 30px black;
-  margin-bottom: 45px;
-
-  h3{
-    color: #0072bc;
-    text-transform: uppercase;
-    font-size: 20px;
-  }
-
+footer{
   p{
-    padding-bottom: 20px;
-    color: grey;
-    font-size: 15px;
+    border-top: 1px solid #d7e0e2;
   }
 }
 
-.readmore{
-  position: absolute;
-    bottom: 0px;
-    right: 0px;
-    background-color: #0072bc;
-    padding: 5px 20px 5px 20px;
-    color: white;
+body{
+  padding-top: 90px;
+}
+
+.navbar-form{
+  .form-group, button{
+    margin-left: 10px;
+  }
 }
