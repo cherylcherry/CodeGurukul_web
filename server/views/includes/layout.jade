@@ -10,8 +10,10 @@ html(lang='en')
     link(href='/css/main.css', rel='stylesheet')
 
   body
-    block main
-        
+    include ../partials/header
+    block main 
+    include ../partials/footer
+
     // jQuery (necessary for Bootstrap's JavaScript plugins)
     script(src='/vendor/bootstrap/dist/js/jquery.min.js')
     // Include all compiled plugins (below), or include individual files as needed
