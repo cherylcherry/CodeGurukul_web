@@ -1,15 +1,5 @@
-html(lang='en')
-  head
-    meta(charset='utf-8')    
-    meta(http-equiv='X-UA-Compatible', content='IE=edge')    
-    meta(name='viewport', content='width=device-width, initial-scale=1')
-    // The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
-    title Practise Bootstrap
-    // Bootstrap
-    link(href='/vendor/bootstrap/dist/css/bootstrap.min.css', rel='stylesheet')  
-    link(href='/css/main.css', rel='stylesheet')
-
-  body
+extends ./includes/layout
+block main
     .container
       .row
         .col-md-12
@@ -36,8 +26,3 @@ html(lang='en')
                 | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque obcaecati dolores quis voluptatibus, expedita labore.
               |   &#x9;&#x9;&#x9;&#x9;&#x9;
               .readmore Read More
-        
-    // jQuery (necessary for Bootstrap's JavaScript plugins)
-    script(src='/vendor/bootstrap/dist/js/jquery.min.js')
-    // Include all compiled plugins (below), or include individual files as needed
-    script(src='/vendor/bootstrap/dist/js/bootstrap.min.js')
