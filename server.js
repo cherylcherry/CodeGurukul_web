@@ -1,4 +1,5 @@
 var express = require('express'); //node_module for express server
+var mongoose = require('mongoose'); 
 
 var app = express();
 
@@ -8,6 +9,24 @@ app.set('view engine','jade');
 
 //app.use is used to use middlewares
 app.use(express.static('public')); //static route handling
+
+//Mongoose Connection with MongoDB
+mongoose.connect('mongodb://localhost/codegurukul');
+console.log('local mongodb opened');
+
+//A mongoose Schema
+var courseSchema = new mongoose.Schema({
+	name: String,
+	featured: Boolean,
+	published: Date
+});
+
+//Compile Schema into a Maongoose Model
+var Course=mongoose.model('Course',courseSchema);
+
+//Create a new course
+var course =  new Course ({name: "C# for Sociopaths"});
+course.save(); //The Magic!
 
 //JSON array of objects
 var courses = [
