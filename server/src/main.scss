@@ -1,15 +1,7 @@
-footer{
-  p{
-    border-top: 1px solid #d7e0e2;
-  }
-}
+@import 'header';
+@import 'footer';
 
 body{
   padding-top: 90px;
 }
 
-.navbar-form{
-  .form-group, button{
-    margin-left: 10px;
-  }
-}
